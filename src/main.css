@@ -1,0 +1,14 @@
+@import "styles/reset.css";
+
+:root {
+  --color-very-dark-blue: hsl(233, 47%, 7%);
+  --color-dark-desaturated-blue: hsl(244, 38%, 16%);
+  --color-soft-violet: hsl(277, 64%, 61%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-slighly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+  --color-slighly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+
+  --font-fallback: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-inter: 'Inter', var(--font-fallback);
+  --font-lexend: 'Lexend Deca', var(--font-fallback);
+}
