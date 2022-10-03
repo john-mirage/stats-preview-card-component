@@ -12,3 +12,7 @@
   --font-inter: 'Inter', var(--font-fallback);
   --font-lexend: 'Lexend Deca', var(--font-fallback);
 }
+
+body {
+  background-color: var(--color-very-dark-blue);
+}
