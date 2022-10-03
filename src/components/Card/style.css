@@ -8,22 +8,12 @@
 }
 
 .card__header {
-  position: relative;
-}
-
-.card__image {
-  width: 100%;
-}
-
-.card__overlay {
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  padding-top: 75%;
   background-color: var(--color-soft-violet);
-  mix-blend-mode: multiply;
+  background-image: url("/src/images/image-header-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .card__body {
@@ -89,20 +79,7 @@
     flex: none;
     order: 2;
     width: 33.75rem; /* 540px */
-  }
-
-  .card__picture {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .card__image {
-    height: 100%;
-    object-fit: cover;
+    padding-top: 0;
   }
 
   .card__body {
