@@ -80,6 +80,7 @@
     order: 2;
     width: 33.75rem; /* 540px */
     padding-top: 0;
+    background-image: url("/src/images/image-header-desktop.jpg");
   }
 
   .card__body {
